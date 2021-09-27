@@ -17,5 +17,3 @@ func NewService(repository Repository, logger *zerolog.Logger) *Service {
 		logger:     logger,
 	}
 }
-
-func (s *Service) GetExample(id string) ()
